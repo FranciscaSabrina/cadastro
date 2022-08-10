@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+</head>
+<body>
+	<h1><font face="Comic Sans MS"> Cadastro do Usuário </font></h1>
+
+	<form action="" method="POST">
+
+		<input type="hidden" name="login" value="true">
+
+		<label for="input_nome_participante">Nome</label>
+		<input id="input_nome_participante" type="text" name="nome_participante"> <br>
+
+		<label for="input_email_participante">E-mail</label>
+		<input id="input_email_participante" type="email" name="email_participante"><br>
+
+		<label for="input_telefone_participante">Telefone</label> 
+		<input id="input_telefone_participante" type="tel" name="telefone_participante"><br>
+
+		<label for="input_datanasc_participante">Data de Nascimento</label> 
+		<input id="input_datanasc_participante" type="date" name="datanasc_participante"><br>
+			
+		<button type="submit">Entrar</button>
+	</form>
+	
+</body>
+</html>
